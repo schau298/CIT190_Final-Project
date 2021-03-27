@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>iSpy</title>
+<link rel="stylesheet" href="css/iSpy.css"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+
+
+<h1>Where's My Farm Animal?
+
+  <div class="icon-bar">
+    <a href="https://lisabalbach.com/schau298/CIT190/FinalProject/FinalProjectHome.html"><i class="fa fa-home"></i></a>       
+</div>
+
+</h1>
+<aside>
+  <li><a href='iSpyReadMe.html'>About the Game</a></li>
+</aside>
+
+</head>
+<body>
+<p class="total">Guess Total: <span id="guess">0</span></p>
+</div>
+
+<button id="restart">Restart</button>
+</div>
+
+<section>
+
+    <div class="clickme">Look for the Lamb!</div>
+    <div class="clickme">Look for the Goat!</div>        
+    <div class="clickme">Look for the Horse!</div>
+    <div class="clickme">Look for the Pig!</div>
+    <div class="clickme">Look for the Cow!</div>
+    <div class="clickme">Look for the Chicken!</div> 
+    
+</section>
+
+
+
+<section class="gameArea" style="background-image:url('media/forest.jpeg');background-repeat: no-repeat;background-size:100%">
+  <h2 id="result"></h2>
+  <p class="chicken"><img id="chicken" onclick="displayTxt1(), addGuess(1)"src="media/chicken.png" style="width:150px"  /></p>
+  <p class="cow"><img id="cow" onclick="displayTxt2(),addGuess(1)" src="media/cow.png" style="width:150px" /></p>          
+  <p class="horse"><img id="horse" onclick="displayTxt3(),addGuess(1)" src="media/horse.png" style="width:150px" /></p>
+  <p class="pig"><img id="pig" onclick="displayTxt4(),addGuess(1)" src="media/pig.png" style="width:150px"/></p>
+  <p class="goat"><img id="goat" onclick="displayTxt5(),addGuess(1)" src="media/goat.png" style="width:150px"/></p>
+  <p class="lamb"><img id="lamb"onclick="displayTxt6(),addGuess(1)" src="media/lamb.png" style="width:150px"/></p> 
+  </section2>
+ 
+
+ <script src="js/iSpy.js"></script>
+
+</body>
+</html>
