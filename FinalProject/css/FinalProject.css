@@ -1,0 +1,73 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:16pt;
+}
+a:link, a:visited{
+    color: steelblue;
+    text-decoration:none;
+}
+a:hover, a:active{
+    color:yellow;
+    background-color:green;
+    text-decoration:none;
+}
+h1{
+    color: lightblue;
+    text-shadow:1px 1px black;
+    font-size:2em;
+    background-color:none;
+    opacity:.7;
+    padding:20px;
+    border-radius:20px;
+    width:50%;
+}
+h2{
+    background-color:none;
+    color:green;
+    font-size:1.5em;
+    text-shadow:1px 1px 1px black;
+    border-radius:20px;
+    padding:5px;
+    width:50%;
+}
+h3{
+    color:darkblue;
+    font-size:1.1em;
+    text-shadow:1px 1px 1px lightslategrey;
+    background-color:lightslategrey;
+    border-radius:20px;
+    padding:15px;
+    width:30%;
+}
+p{
+    margin-left:30px;
+}
+li{
+    animation-duration:3s;
+	animation-name:slidein;
+}
+@keyframes slidein{
+	from{
+		margin-top:100%;
+		width:300%
+	}
+	to{
+		margin-left:0%;
+		width:100%
+	}
+}
+section{
+    background-color:orange;
+    opacity:.8;
+    width:100%;
+    border-radius:30px;
+    padding:20px;
+}
+.pulse{
+	animation: pulse 5s infinite;
+    }
+@keyframes pulse{
+	0% {color:lightgreen; text-shadow:1px 1px black;}
+	50% {color: lightblue; text-shadow:10px 10px 2px blue;}
+	100%{color: green ; text-shadow:1px 1px pink;}
+    }
