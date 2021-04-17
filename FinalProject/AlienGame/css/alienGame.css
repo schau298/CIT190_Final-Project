@@ -1,0 +1,84 @@
+
+body{
+    background-repeat:no-repeat;
+    background-size:950px auto;
+    background-color: black;
+  }
+  h1{
+      color:blueviolet;
+      font-weight: bold;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:3em;
+      text-shadow: 1px 1px 1px blue;
+  }
+
+  #alien {
+    width: 160px;
+    height: 153px;
+    position: relative;
+    background-color: none;
+  }
+  p{
+    color:white;
+  }
+  section{
+      width:900px;
+      height:600px;
+  }
+  button{
+      width:200px;
+      padding:10px;
+      color:white;
+      font-weight: bold;
+      background-color:blue;
+  }
+footer{
+    text-align: center;
+    margin-top: 2%;
+    color: cyan;
+}
+
+.icon-bar{
+	width:100%;
+	background-color:blueviolet;
+	overflow:auto;
+}
+.icon-bar a{
+	text-align:center;
+	width:97%;
+	float:left;
+	padding:25px 25px;
+	color:rgb(70, 82, 255);
+	font-size:72px;
+	transition:all 1s ease;
+}
+.icon-bar a:hover{
+    background-color: blueviolet;
+    color:cyan;
+}
+a:link, a:visited{
+    color: rgb(70, 82, 255);
+    text-shadow: 1px 1px 1px blueviolet;
+    text-decoration:none;
+}
+a:hover, a:active{
+    color:blueviolet;
+    background-color:cyan;
+    text-decoration:none;
+}
+
+canvas{
+    display: inline;
+    border: 10px solid  blueviolet ;
+}
+
+p.timeClock{
+
+    background-color:black;
+    color:cyan;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2em;
+    float: center;
+    padding: 5px;
+    width:40%;
+}

@@ -1,0 +1,74 @@
+body{
+    background: skyblue;
+    background-repeat: repeat-y;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: 	yellow;
+    text-shadow: 2px 1px black;
+}
+button{
+    background-color: #9b805c; 
+    border: 3px solid brown;
+    padding: 1% 1%;
+    margin: 2px;
+    font-size: 1em;
+    color: darkgreen;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover{
+    background-color:  #9b805c;
+    color: 	darkgreen;
+}
+
+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+canvas{
+    display: inline;
+    border: 10px solid  gold ;
+}
+footer{
+    text-align: center;
+    margin-top: 2%;
+    color: darkgreen;
+}
+footer{
+	margin-top:5%;
+}
+
+
+.icon-bar{
+	width:100%;
+	background-color:skyblue;
+	overflow:auto;
+}
+.icon-bar a{
+	text-align:center;
+	width:97%;
+	float:left;
+	padding:25px 25px;
+	color:red;
+	font-size:72px;
+	transition:all 1s ease;
+}
+.icon-bar a:hover{
+    background-color: skyblue;
+    color:red;
+}
+a:link, a:visited{
+    color: rgb(139, 228, 5);
+    text-shadow: 1px 1px 1px darkgreen;
+    text-decoration:none;
+}
+a:hover, a:active{
+    color:yellow;
+    background-color:green;
+    text-decoration:none;
+}
